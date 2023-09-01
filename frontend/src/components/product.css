@@ -1,0 +1,30 @@
+.product-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+.product-image {
+  width:400px;
+  max-height: 300px;
+  object-fit: fill;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #555;
+}
+.out-of-stock{
+  background-color: #e0e0e0;
+  color: #888;
+  border: none;
+  padding: 10px 20px;
+  cursor: not-allowed;
+}
